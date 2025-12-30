@@ -7,3 +7,4 @@ langchain-huggingface
 langchain-google-genai
 langchain-text-splitters
 streamlit
+sentence-transformers
