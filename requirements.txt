@@ -9,3 +9,4 @@ langchain-text-splitters
 streamlit
 sentence-transformers
 python-box
+faiss-cpu
