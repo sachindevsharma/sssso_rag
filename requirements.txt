@@ -4,6 +4,6 @@ langchain-groq
 langchain-openai
 langchain-community
 langchain-huggingface
-langchain-google-gemini
+langchain-google-genai
 langchain-text-splitters
 streamlit
