@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-groq
+langchain-openai
+langchain-community
+langchain-huggingface
+langchain-google-gemini
+langchain-text-splitters
+streamlit

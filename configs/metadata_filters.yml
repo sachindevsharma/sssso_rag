@@ -1,0 +1,24 @@
+metadata_filters:
+
+  allowed_keys:
+    - topic_num
+    - section_name
+    
+  section_name:
+    - topic
+    - venue and time allotted
+    - context and link to conference theme
+    - purpose of the topic
+    - key takeaways for participants
+    - divine references
+    - "divine reference: (dd 23 november 1979)"
+    - "divine reference: (dd 19 jun 1974)"
+    - "divine reference (dd 23 november 1997)"
+    - "divine reference: (dd 25 december 2003)"
+    - "divine reference: (dd 8 march, 2005)"
+    - potential overlap to avoid
+    - practical application/analogies
+    - essence
+    - "divine reference: (dd 4  july 1968)"
+    - "divine reference: (dd 28 july, 1968)"
+    - "divine reference: 28 september 1990)"

@@ -1,0 +1,48 @@
+PATH:
+  data: data/
+  vector_db: data/vector_db/
+  models: models/
+  logs: logs/
+  query_logs_dir: logs/query_logs_dir/
+  llm_rerank_prompts_dir: logs/llm_rerank_prompts_dir/
+
+provider:
+  llm: openrouter
+  embeddings: groq
+  vector_db: faiss
+
+VECTOR_DB:
+  FAISS:
+    index_path: data/vector_db/faiss_index
+    normalize_embeddings: true
+  QDRANT:
+    url: https://b331a588-b9bd-45a4-bdee-aab12d983620.us-east4-0.gcp.cloud.qdrant.io
+    collection_name: beyonders_collection
+    normalize_embeddings: true
+
+LLM:
+  openrouter:
+    base_url: https://openrouter.ai/api/v1
+    model: meta-llama/llama-3.3-70b-instruct:free
+  google:
+    model : gemini-2.5-flash
+  openai:
+    model: gpt-4o-mini
+  groq:
+    model: llama-3.1-8b-instant
+
+EMBEDDINGS: 
+    google:
+        model: models/embedding-001
+    groq:
+        model: BAAI/bge-large-en-v1.5
+        show_progress: false
+        encode_kwargs:
+          normalize_embeddings: true
+    openai:
+      model: text-embedding-3-small
+
+RERANKER:
+  cross_encoder:
+    model: cross-encoder/ms-marco-MiniLM-L-12-v2
+
